@@ -1,5 +1,5 @@
 from builder.header import HeaderBuilder
-from dy_util import generate_webid, generate_msToken, splice_url, generate_a_bogus, generate_fake_webid
+from builder.dy_util import generate_webid, generate_msToken, splice_url, generate_a_bogus, generate_fake_webid
 
 
 class Params:

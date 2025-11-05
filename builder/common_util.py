@@ -1,7 +1,7 @@
 import os
 # from loguru import logger
 from dotenv import load_dotenv
-from auth import DouyinAuth
+from builder.auth import DouyinAuth
 dy_auth = None
 def load_env():
     global dy_auth

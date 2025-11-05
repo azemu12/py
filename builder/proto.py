@@ -11,7 +11,7 @@ import uuid
 
 import static.Request_pb2 as RequestProto
 from builder.header import HeaderBuilder
-from dy_util import generate_webid, generate_req_sign, generate_millisecond
+from builder.dy_util import generate_webid, generate_req_sign, generate_millisecond
 
 
 class ProtoBuilder:

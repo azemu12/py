@@ -1,6 +1,6 @@
 from enum import Enum
 
-from dy_util import generate_ree_key, generate_bd_ticket_client_data, generate_csrf_token
+from builder.dy_util import generate_ree_key, generate_bd_ticket_client_data, generate_csrf_token
 
 
 class HeaderType(Enum):

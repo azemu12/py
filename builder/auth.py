@@ -2,7 +2,7 @@ import base64
 import json
 
 from douyin_api import DouyinAPI
-from dy_util import trans_cookies, generate_msToken
+from builder.dy_util import trans_cookies, generate_msToken
 
 
 class DouyinAuth:

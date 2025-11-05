@@ -16,7 +16,7 @@ class DouyinAPI:
     douyin_url_user_new = 'https://www-hj.douyin.com'
 
     @staticmethod
-    def get_user_all_work_info(auth, user_url: str, num: int, max_retry: int = 3, **kwargs) -> list:
+    def get_user_all_work_info(auth, user_url: str, work_total_num: int, get_user_work_info_max_retry: int) -> list:
         """
         获取用户全部作品信息.
         :param auth: DouyinAuth object.
@@ -26,20 +26,20 @@ class DouyinAPI:
         max_cursor = "0"
         work_list = []
         while True:
-            res_json = DouyinAPI.get_user_work_info(auth, user_url, max_cursor, max_retry=max_retry)
+            res_json = DouyinAPI.get_user_work_info(auth, user_url, max_cursor, get_user_work_info_max_retry)
             if "aweme_list" not in res_json.keys():
                 logger.info(f"get_user_all_work_info_获取用户{user_url}全部作品信息失败,已获取到{len(work_list)}条")
                 break
             works = res_json["aweme_list"]
             max_cursor = str(res_json["max_cursor"])
             work_list.extend(works)
-            if res_json["has_more"] != 1 or (num != 0 and len(work_list) >= num):
+            if res_json["has_more"] != 1 or (work_total_num != 0 and len(work_list) >= work_total_num):
                 break
         return work_list
 
 
     @staticmethod
-    def get_user_work_info(auth, user_url: str, max_cursor, max_retry: int = 3) -> dict:
+    def get_user_work_info(auth, user_url: str, max_cursor, get_user_work_info_max_retry: int) -> dict:
         """
         获取用户作品信息.
         :param auth: DouyinAuth object.
@@ -92,7 +92,7 @@ class DouyinAPI:
         params.add_param("fp", auth.cookie['s_v_web_id'])
         params.add_param("msToken",
                          auth.msToken)
-        for attempt in range(2):
+        for attempt in range(get_user_work_info_max_retry):
             try:
                 resp = requests.get(f'{DouyinAPI.douyin_url_user_new}{api}', headers=headers.get(), cookies=auth.cookie,
                                     params=params.get(), verify=False)
