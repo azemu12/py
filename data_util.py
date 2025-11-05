@@ -9,7 +9,7 @@ from retry import retry
 from curl_cffi import requests as curl_requests
 from tqdm import tqdm
 from builder.header import HeaderBuilder, HeaderType
-
+CACHE_FILE = "download_cache.json"
 
 def norm_str(str):
     new_str = re.sub(r"|[\\/:*?\"<>| ]+", "", str).replace('\n', '').replace('\r', '')
@@ -98,8 +98,11 @@ def download_work(work_info,download_work_max_retry):
     save_path = work_info["save_path"]
     check_and_create_path(os.path.dirname(save_path))
     logger.info(f'正在下载视频链接 {work_info["video_addr"]}')
-    download_media(save_path, work_info['video_addr'],download_work_max_retry)
-    logger.info(f'作品 {work_info["aweme_id"]} 下载完成，保存路径: {save_path}')
+    success = download_media(save_path, work_info['video_addr'], work_info['aweme_id'], download_work_max_retry)
+    if success:
+        logger.info(f'作品 {work_info["aweme_id"]} 下载完成，保存路径: {save_path}')
+    else:
+        logger.error(f'作品 {work_info["aweme_id"]} 下载失败，保存路径: {save_path}')
     return save_path
 
 

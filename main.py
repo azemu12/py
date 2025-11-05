@@ -42,8 +42,8 @@ class Data_Spider():
                 work_info["save_path"] = os.path.join(save_dir, user_id, work_id)
                 work_info["video_addr"] = work_info['video']['play_addr']['url_list'][0]
                 download_work(work_info,download_work_max_retry)
-            except:
-                logger.error(f'作品 {work_info["work_id"]} 解析失败')
+            except Exception as e:
+                logger.error(f'作品 {work_id} 解析失败: {repr(e)}')
                 continue
     def get_user_link_by_user_id(self, auth, user_id: str, get_user_link_max_retry: int) -> dict:
         """
@@ -59,11 +59,12 @@ if __name__ == '__main__':
     date_time = "20251105"
     json_file = f"json/{date_time}_user_id_list.json"  # 你生成的用户列表文件
     progress_file = "progress.json"                # 保存已完成用户
-    save_dir = "D:\download_1124"
+    save_dir = r"G:\download_1124"
     os.makedirs(save_dir, exist_ok=True)
     get_user_work_info_max_retry = 10
     download_work_max_retry = 10
     get_user_link_max_retry = 10
+    work_total_num = 0
 
     # 初始化
     auth = init()
@@ -102,5 +103,7 @@ if __name__ == '__main__':
                 json.dump({"finished": list(finished_users)}, f, ensure_ascii=False, indent=2)
     
         except Exception as e:
+            import traceback
+            logger.error(f"用户 {user_id} 爬取出错: {repr(e)}")
             logger.error(f"用户 {user_id} 爬取出错: {e}")
             continue
