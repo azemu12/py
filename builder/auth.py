@@ -16,6 +16,7 @@ class DouyinAuth:
         self.ree_public_key = None
         self.uid = None
         self.msToken = None
+        self.uifid = None
 
     def perepare_auth(self, cookieStr: str, web_protect_: str = "", keys_: str = ""):
         self.cookie = trans_cookies(cookieStr)
@@ -28,6 +29,7 @@ class DouyinAuth:
             self.ticket = web_protect_['ticket']
             self.ts_sign = web_protect_['ts_sign']
             self.client_cert = web_protect_['client_cert']
+            self.uifid = self.cookie['UIFID']
         if keys_ != "":
             keys_ = json.loads(json.loads(keys_)['data'])
             self.private_key = keys_['ec_privateKey']
