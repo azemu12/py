@@ -87,7 +87,7 @@ def download_media(save_path, video_addr, work_id, download_work_max_retry):
             logger.error(f"{video_addr} 下载失败: {str(e)}")
 
         if retry_count < download_work_max_retry - 1:
-            delay = 1 * (2 ** retry_count)
+            delay = 1 * (2 * retry_count)
             logger.info(f"{video_addr} 等待 {delay} 秒后重试... ({retry_count + 1}/{download_work_max_retry})")
             time.sleep(delay)
 
