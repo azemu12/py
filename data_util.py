@@ -94,11 +94,60 @@ def download_media(save_path, video_addr, work_id, download_work_max_retry):
     logger.error(f"{video_addr} 达到最大重试次数 {download_work_max_retry}，下载失败")
     return False
 
-def download_work(work_info,download_work_max_retry):
+def download_media_one(save_path, video_addr, work_id, download_work_max_retry):
+    """
+    根据 video_addr 下载视频
+    使用 work_id 去重
+    """
+
+    headers = HeaderBuilder().build(HeaderType.GET)
+    headers.set_referer(video_addr)
+
+    for retry_count in range(download_work_max_retry):
+        try:
+            r = curl_requests.get(video_addr, headers=headers.get(), stream=True, timeout=30)
+            if r.status_code == 200:
+                total_size = int(r.headers.get('Content-Length', 0))
+                block_size = 8192
+
+                os.makedirs(os.path.dirname(save_path), exist_ok=True)
+                with open(save_path + '.mp4', "wb") as f, tqdm(
+                    total=total_size,
+                    unit='B',
+                    unit_scale=True,
+                    unit_divisor=1024,
+                    desc=f"下载中 (尝试 {retry_count + 1}/{download_work_max_retry})",
+                    ncols=80
+                ) as bar:
+                    for chunk in r.iter_content(chunk_size=block_size):
+                        if chunk:
+                            f.write(chunk)
+                            bar.update(len(chunk))
+                logger.success(f"✅ 下载完成: {work_id}")
+                return True
+
+            else:
+                logger.error(f"{video_addr} 请求失败: {r.status_code}")
+
+        except Exception as e:
+            logger.error(f"{video_addr} 下载失败: {str(e)}")
+
+        if retry_count < download_work_max_retry - 1:
+            delay = 1 * (2 * retry_count)
+            logger.info(f"{video_addr} 等待 {delay} 秒后重试... ({retry_count + 1}/{download_work_max_retry})")
+            time.sleep(delay)
+
+    logger.error(f"{video_addr} 达到最大重试次数 {download_work_max_retry}，下载失败")
+    return False
+
+def download_work(work_info,download_work_max_retry,download_type):
     save_path = work_info["save_path"]
     check_and_create_path(os.path.dirname(save_path))
     logger.info(f'正在下载视频链接 {work_info["video_addr"]}')
-    success = download_media(save_path, work_info['video_addr'], work_info['aweme_id'], download_work_max_retry)
+    if download_type == "one":
+        success = download_media_one(save_path, work_info['video_addr'], work_info['aweme_id'], download_work_max_retry)
+    else:
+        success = download_media(save_path, work_info['video_addr'], work_info['aweme_id'], download_work_max_retry)
     if success:
         logger.info(f'作品 {work_info["aweme_id"]} 下载完成，保存路径: {save_path}')
     else:

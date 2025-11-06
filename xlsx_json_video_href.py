@@ -1,23 +1,24 @@
 import os
 import json
 import pandas as pd
+import re
 
 date_time = '20251105'
 excel_path = '1P_250319 全身视频采集_抖音号1082_链接671.xlsx'
-sheet_name = '抖音号-1082'
+sheet_name = '链接-671'
 
 # === 没有表头，header=None ===
 data = pd.read_excel(excel_path, sheet_name=sheet_name, header=None)
 
 # 假设第 1 列（索引 0）是抖音号
-user_id_list = data.iloc[:, 0].astype(str).tolist()
+video_href_list = data.iloc[:, 0].astype(str).tolist()
 
 # ========== 自动延续 index ==========
 json_dir = 'json'
 os.makedirs(json_dir, exist_ok=True)
 
 # 查找 json 目录下的所有 json 文件
-existing_files = [f for f in os.listdir(json_dir) if f.endswith('.json')]
+existing_files = [f for f in os.listdir(json_dir) if f.endswith('video_href.json')]
 
 max_index = 0
 for file in existing_files:
@@ -38,15 +39,18 @@ index = max_index + 1
 
 # ========== 写入新 JSON ==========
 results_list = []
-for user_id in user_id_list:
+for video_href in video_href_list:
+    video_href = re.search(r'(https:[^\s]+)', video_href)
+    if video_href:
+        video_href = video_href.group(0)
     results_list.append({
         'id': f'{index:08d}',
-        'user_id': user_id,
+        'video_href': video_href,
         'date_time': date_time
     })
     index += 1
 
-output_path = os.path.join(json_dir, f'{date_time}_user_id_list.json')
+output_path = os.path.join(json_dir, f'{date_time}_video_href.json')
 with open(output_path, 'w', encoding='utf-8') as f:
     json.dump(results_list, f, ensure_ascii=False, indent=4)
 
