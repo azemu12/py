@@ -121,7 +121,7 @@ class DouyinAPI:
         else:
             for user_item in user_list:
                 if user_item["user_info"]["unique_id"] == user_id:
-                    user_link = f"https://www.douyin.com/user/{user_item["user_info"]["sec_uid"]}"
+                    user_link = f"https://www.douyin.com/user/{user_item['user_info']['sec_uid']}"
                     logger.info(f"get_user_link_by_user_id_获取用户{user_id}成功, 用户链接: {user_link}")
                     return user_link
             logger.info(f"get_user_link_by_user_id_获取用户{user_id}失败, 未找到相关数据")
