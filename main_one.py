@@ -24,7 +24,7 @@ class Data_Spider():
             logger.error(f"get_work_id_by_share_href_获取作品id失败 share_href: {save_id}")
             return
         video_arrd = self.douyin_apis.get_video_arrd_by_work_id(auth, work_id, get_video_arrd_by_work_id_max_retry)
-        if video_arrd == {}:
+        if video_arrd == None:
             logger.error(f"get_video_arrd_by_work_id_获取视频下载链接失败 share_href: {save_id}")
             return
         work_info = {}

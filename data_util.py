@@ -146,7 +146,7 @@ def download_work(work_info,download_work_max_retry,download_type):
     logger.info(f'正在下载视频链接 {work_info["video_addr"]}')
     if download_type == "one":
         success = download_media_one(save_path, work_info['video_addr'], work_info['aweme_id'], download_work_max_retry)
-    else:
+    elif download_type == "all":
         success = download_media(save_path, work_info['video_addr'], work_info['aweme_id'], download_work_max_retry)
     if success:
         logger.info(f'作品 {work_info["aweme_id"]} 下载完成，保存路径: {save_path}')

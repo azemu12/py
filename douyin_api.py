@@ -134,9 +134,9 @@ class DouyinAPI:
         :param user_url: 用户id.
         :return: 用户信息.
         """
-        api = "/aweme/v1/web/discover/search"
+        api = "/aweme/v1/web/discover/search/"
         headers = HeaderBuilder().build(HeaderType.GET)
-        refer = f'https://www.douyin.com/search/{urllib.parse.quote(user_id)}?aid={uuid.uuid4()}&type=general'
+        refer = f'https://www.douyin.com/jingxuan/search/{urllib.parse.quote(user_id)}?aid={uuid.uuid4()}&type=user'
         headers.set_referer(refer)
         params = Params()
         params.add_param("device_platform", 'webapp')
@@ -144,14 +144,16 @@ class DouyinAPI:
         params.add_param("channel", 'channel_pc_web')
         params.add_param("search_channel", 'aweme_user_web')
         params.add_param("keyword", user_id)
-        params.add_param("search_source", 'switch_tab')
+        params.add_param("search_source", 'normal_search')
         params.add_param("query_correct_type", '1')
-        params.add_param("is_filter_search", '1')
+        params.add_param("is_filter_search", '0')
         # params.add_param("from_group_id", '7378456704385600820')
+        params.add_param("disable_rs", '0')
         params.add_param("offset", '0')
-        params.add_param("count", '25')
+        params.add_param("count", '12')
         params.add_param("need_filter_settings", '1')
         params.add_param("list_type", 'single')
+        params.add_param("pc_search_top_1_params",'{"enable_ai_search_top_1":1}')
         params.add_param("update_version_code", '170400')
         params.add_param("pc_client_type", '1')
         params.add_param("version_code", '170400')
@@ -165,7 +167,7 @@ class DouyinAPI:
         params.add_param("browser_version", '142.0.0.0')
         params.add_param("browser_online", 'true')
         params.add_param("engine_name", 'Blink')
-        params.add_param("engine_version", '125.0.0.0')
+        params.add_param("engine_version", '142.0.0.0')
         params.add_param("os_name", 'Windows')
         params.add_param("os_version", '10')
         params.add_param("cpu_core_num", '32')
@@ -181,15 +183,17 @@ class DouyinAPI:
             try:
                 resp = requests.get(f'{DouyinAPI.douyin_url}{api}', headers=headers.get(), cookies=auth.cookie,
                                     params=params.get(), verify=False)
+                print(resp.url)
                 resp.raise_for_status()
                 resp_json = json.loads(resp.text)
+
                 if resp_json.get("status_code") == 0:
-                    logger.info(f"get_user_link_by_user_id_获取用户{user_id}成功")
+                    logger.info(f"get_all_user_link_by_user_id获取用户{user_id}成功")
                     return resp_json["user_list"]
                 else:
-                    logger.info(f"get_user_link_by_user_id_获取用户{user_id}失败, 响应体: {resp_json}")
+                    logger.info(f"get_all_user_link_by_user_id获取用户{user_id}失败, 响应体: {resp_json}")
             except Exception as e:
-                logger.error(f"get_user_link_by_user_id_获取用户{user_id}失败 {e} 响应码非200 重试 {attempt + 1}次")
+                logger.error(f"get_all_user_link_by_user_id获取用户{user_id}失败 {e} 响应码非200 重试 {attempt + 1}次")
         return None 
     @staticmethod
     def get_work_id_by_share_href(share_href: str, get_work_id_by_share_href_max_retry: int) -> str:
@@ -268,6 +272,9 @@ class DouyinAPI:
                 if resp_json.get("status_code") == 0:
                     logger.info(f"get_video_arrd_by_work_id_{work_id}获取下载链接成功")
                     return resp_json["aweme_detail"]["video"]["play_addr"]["url_list"][0]
+                if "因作品权限或已被删除" in resp_json.get("filter_detail").get("detail_msg"):
+                    logger.info(f"get_video_arrd_by_work_id_{work_id}获取下载链接失败, 响应体: {resp_json}")
+                    return None
                 else:
                     logger.info(f"get_video_arrd_by_work_id_{work_id}获取下载链接失败, 响应体: {resp_json}")
             except Exception as e:

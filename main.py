@@ -5,6 +5,7 @@ from loguru import logger
 from douyin_api import DouyinAPI
 from builder.common_util import init
 from data_util import download_work
+import sys
 
 
 class Data_Spider():
@@ -41,7 +42,7 @@ class Data_Spider():
             try:
                 work_info["save_path"] = os.path.join(save_dir, user_id, work_id)
                 work_info["video_addr"] = work_info['video']['play_addr']['url_list'][0]
-                download_work(work_info,download_work_max_retry)
+                download_work(work_info,download_work_max_retry,"all")
             except Exception as e:
                 logger.error(f'作品 {work_id} 解析失败: {repr(e)}')
                 continue
@@ -92,7 +93,7 @@ if __name__ == '__main__':
             user_url = data_spider.get_user_link_by_user_id(auth, user_id, get_user_link_max_retry)
             if not user_url:
                 logger.error(f"获取用户 {user_id} 链接失败")
-                continue
+                sys.exit(1)
     
             data_spider.spider_user_all_work(auth, work_total_num, user_url, save_dir,
                                              get_user_work_info_max_retry, download_work_max_retry)
