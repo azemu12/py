@@ -186,7 +186,8 @@ class DouyinAPI:
                 print(resp.url)
                 resp.raise_for_status()
                 resp_json = json.loads(resp.text)
-
+                with open("get_all_user_link_by_user_id.json","w",encoding="utf-8") as f:
+                    f.write(resp.text)
                 if resp_json.get("status_code") == 0:
                     logger.info(f"get_all_user_link_by_user_id获取用户{user_id}成功")
                     return resp_json["user_list"]

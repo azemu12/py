@@ -60,12 +60,12 @@ if __name__ == '__main__':
     date_time = "20251105"
     json_file = f"json/{date_time}_user_id_list.json"  # 你生成的用户列表文件
     progress_file = "progress.json"                # 保存已完成用户
-    save_dir = r"/sdc1/mada_16t/download_1107"
+    save_dir = r"/sdc1/mada_16t/download_1120"
     os.makedirs(save_dir, exist_ok=True)
     get_user_work_info_max_retry = 10
     download_work_max_retry = 10
     get_user_link_max_retry = 10
-    work_total_num = 0
+    work_total_num = 20
 
     # 初始化
     auth = init()

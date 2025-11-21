@@ -1,0 +1,814 @@
+2025-11-07 17:23:23.777 | INFO     | douyin_api:get_all_user_link_by_user_id:191 - get_all_user_link_by_user_id获取用户WUYR2021成功
+2025-11-07 17:23:23.778 | INFO     | douyin_api:get_user_link_by_user_id:125 - get_user_link_by_user_id_获取用户WUYR2021成功, 用户链接: https://www.douyin.com/user/MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY
+2025-11-07 17:23:25.360 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第0页成功
+2025-11-07 17:23:27.093 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1762091937000页成功
+2025-11-07 17:23:29.967 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1761433820000页成功
+2025-11-07 17:23:31.547 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1760436558000页成功
+2025-11-07 17:23:33.092 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1759984016000页成功
+2025-11-07 17:23:34.570 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1759657835000页成功
+2025-11-07 17:23:35.969 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1759226453000页成功
+2025-11-07 17:23:37.680 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1758855794000页成功
+2025-11-07 17:23:39.154 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1758447352000页成功
+2025-11-07 17:23:40.473 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1758063504000页成功
+2025-11-07 17:23:41.818 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1757590738000页成功
+2025-11-07 17:23:43.268 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1757111781000页成功
+2025-11-07 17:23:44.680 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1756680944000页成功
+2025-11-07 17:23:46.054 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1756309661000页成功
+2025-11-07 17:23:47.408 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1755838036000页成功
+2025-11-07 17:23:48.625 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1755431156000页成功
+2025-11-07 17:23:49.924 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1754949857000页成功
+2025-11-07 17:23:51.209 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1754457390000页成功
+2025-11-07 17:23:53.699 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1753957030000页成功
+2025-11-07 17:23:55.062 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1753536257000页成功
+2025-11-07 17:23:56.664 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1753154243000页成功
+2025-11-07 17:23:58.219 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1752801182000页成功
+2025-11-07 17:23:59.670 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1752412551000页成功
+2025-11-07 17:24:01.051 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1752014185000页成功
+2025-11-07 17:24:03.697 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1751580520000页成功
+2025-11-07 17:24:05.565 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1751034300000页成功
+2025-11-07 17:24:07.365 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1750645083000页成功
+2025-11-07 17:24:09.879 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1750289636000页成功
+2025-11-07 17:24:12.210 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1749808651000页成功
+2025-11-07 17:24:13.955 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1749388263000页成功
+2025-11-07 17:24:15.322 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1748922359000页成功
+2025-11-07 17:24:17.693 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1748559149000页成功
+2025-11-07 17:24:19.234 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1748167635000页成功
+2025-11-07 17:24:20.691 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1747705607000页成功
+2025-11-07 17:24:22.333 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1747277299000页成功
+2025-11-07 17:24:23.880 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1746790467000页成功
+2025-11-07 17:24:26.420 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1746400005000页成功
+2025-11-07 17:24:29.046 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1745900239000页成功
+2025-11-07 17:24:30.665 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1745447264000页成功
+2025-11-07 17:24:32.518 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1744947611000页成功
+2025-11-07 17:24:34.666 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1744410339000页成功
+2025-11-07 17:24:36.268 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1743760084000页成功
+2025-11-07 17:24:37.541 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1743159951000页成功
+2025-11-07 17:24:38.949 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1742724669000页成功
+2025-11-07 17:24:40.792 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1742343131000页成功
+2025-11-07 17:24:42.218 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1741959552000页成功
+2025-11-07 17:24:43.562 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1741576847000页成功
+2025-11-07 17:24:45.042 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1741213321000页成功
+2025-11-07 17:24:46.443 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1740798894000页成功
+2025-11-07 17:24:47.713 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1740442094000页成功
+2025-11-07 17:24:50.263 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1740006270000页成功
+2025-11-07 17:24:52.345 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1739530065000页成功
+2025-11-07 17:24:53.836 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1739099424000页成功
+2025-11-07 17:24:56.424 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1738674523000页成功
+2025-11-07 17:24:57.916 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1737892386000页成功
+2025-11-07 17:24:59.207 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1737373767000页成功
+2025-11-07 17:25:00.834 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1736895927000页成功
+2025-11-07 17:25:02.113 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1736549267000页成功
+2025-11-07 17:25:03.621 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1736160740000页成功
+2025-11-07 17:25:05.575 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1735785667000页成功
+2025-11-07 17:25:07.173 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1735341777000页成功
+2025-11-07 17:25:08.555 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1734946823000页成功
+2025-11-07 17:25:10.209 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1734597286000页成功
+2025-11-07 17:25:11.679 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1734227849000页成功
+2025-11-07 17:25:12.970 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1733820147000页成功
+2025-11-07 17:25:15.656 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1733389177000页成功
+2025-11-07 17:25:17.103 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1732973035000页成功
+2025-11-07 17:25:18.921 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1732624240000页成功
+2025-11-07 17:25:20.232 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1732243039000页成功
+2025-11-07 17:25:21.790 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1731840210000页成功
+2025-11-07 17:25:23.114 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1731124666000页成功
+2025-11-07 17:25:24.523 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1730457025000页成功
+2025-11-07 17:25:26.309 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1729948490000页成功
+2025-11-07 17:25:28.294 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1729550231000页成功
+2025-11-07 17:25:30.648 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1729031926000页成功
+2025-11-07 17:25:32.413 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1728565136000页成功
+2025-11-07 17:25:34.060 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1728122587000页成功
+2025-11-07 17:25:35.550 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1727684542000页成功
+2025-11-07 17:25:37.296 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1727096418000页成功
+2025-11-07 17:25:39.224 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1726658249000页成功
+2025-11-07 17:25:40.684 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1726099054000页成功
+2025-11-07 17:25:42.100 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1725624335000页成功
+2025-11-07 17:25:43.493 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1725076175000页成功
+2025-11-07 17:25:44.910 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1724508806000页成功
+2025-11-07 17:25:46.205 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1724036823000页成功
+2025-11-07 17:25:48.145 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1723540415000页成功
+2025-11-07 17:25:49.444 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1723082271000页成功
+2025-11-07 17:25:51.208 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1722690333000页成功
+2025-11-07 17:25:52.711 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1722256286000页成功
+2025-11-07 17:25:54.182 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1721790481000页成功
+2025-11-07 17:25:55.474 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1721435717000页成功
+2025-11-07 17:25:56.963 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1720909422000页成功
+2025-11-07 17:25:58.236 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1720514079000页成功
+2025-11-07 17:25:59.704 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1719971980000页成功
+2025-11-07 17:26:01.096 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1719617457000页成功
+2025-11-07 17:26:02.955 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1719180144000页成功
+2025-11-07 17:26:04.278 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1718708017000页成功
+2025-11-07 17:26:05.719 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1718315998000页成功
+2025-11-07 17:26:06.960 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1717718518000页成功
+2025-11-07 17:26:09.570 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1717281520000页成功
+2025-11-07 17:26:11.238 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1716782055000页成功
+2025-11-07 17:26:12.550 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1716330701000页成功
+2025-11-07 17:26:14.080 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1715570613000页成功
+2025-11-07 17:26:15.755 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1715049779000页成功
+2025-11-07 17:26:17.171 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1714520127000页成功
+2025-11-07 17:26:18.585 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1714039627000页成功
+2025-11-07 17:26:19.892 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1713500066000页成功
+2025-11-07 17:26:21.206 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1712960638000页成功
+2025-11-07 17:26:22.620 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1712550631000页成功
+2025-11-07 17:26:23.975 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1712050170000页成功
+2025-11-07 17:26:25.983 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1711493824000页成功
+2025-11-07 17:26:27.456 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1711019032000页成功
+2025-11-07 17:26:29.032 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1710587639000页成功
+2025-11-07 17:26:30.400 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1710036845000页成功
+2025-11-07 17:26:31.611 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1709475479000页成功
+2025-11-07 17:26:33.172 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1708857966000页成功
+2025-11-07 17:26:34.448 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1708212334000页成功
+2025-11-07 17:26:35.773 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1707560175000页成功
+2025-11-07 17:26:38.373 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1706915454000页成功
+2025-11-07 17:26:39.998 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1706410648000页成功
+2025-11-07 17:26:41.305 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1705879350000页成功
+2025-11-07 17:26:42.596 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1705376621000页成功
+2025-11-07 17:26:44.525 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1704717206000页成功
+2025-11-07 17:26:46.087 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1704106801000页成功
+2025-11-07 17:26:47.437 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1703475475000页成功
+2025-11-07 17:26:48.974 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1702955246000页成功
+2025-11-07 17:26:50.693 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1702511568000页成功
+2025-11-07 17:26:52.030 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1702025430000页成功
+2025-11-07 17:26:53.507 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1701494816000页成功
+2025-11-07 17:26:54.858 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1700970502000页成功
+2025-11-07 17:26:56.543 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1700451122000页成功
+2025-11-07 17:26:59.036 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1699831571000页成功
+2025-11-07 17:27:00.514 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1699263698000页成功
+2025-11-07 17:27:02.126 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1698723416000页成功
+2025-11-07 17:27:04.399 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1698227509000页成功
+2025-11-07 17:27:06.851 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1697755969000页成功
+2025-11-07 17:27:08.245 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1697235778000页成功
+2025-11-07 17:27:09.648 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1696679875000页成功
+2025-11-07 17:27:10.948 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1696029778000页成功
+2025-11-07 17:27:12.376 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1695248559000页成功
+2025-11-07 17:27:14.127 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1694489803000页成功
+2025-11-07 17:27:16.023 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1693832579000页成功
+2025-11-07 17:27:17.392 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1693230866000页成功
+2025-11-07 17:27:19.014 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1692610801000页成功
+2025-11-07 17:27:21.430 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1692184131000页成功
+2025-11-07 17:27:23.001 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1691584158000页成功
+2025-11-07 17:27:24.327 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1691060377000页成功
+2025-11-07 17:27:25.865 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1690601528000页成功
+2025-11-07 17:27:27.581 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1690118550000页成功
+2025-11-07 17:27:29.261 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1689568012000页成功
+2025-11-07 17:27:31.975 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1689045964000页成功
+2025-11-07 17:27:33.225 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1688422314000页成功
+2025-11-07 17:27:34.597 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1687909627000页成功
+2025-11-07 17:27:36.001 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1687301191000页成功
+2025-11-07 17:27:37.567 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1686701947000页成功
+跳过已完成用户：yangyangyoga888
+跳过已完成用户：JJYOGA
+跳过已完成用户：69363859794
+跳过已完成用户：1817544334
+跳过已完成用户：hhuixxy88
+跳过已完成用户：71440186
+跳过已完成用户：_baibai717
+跳过已完成用户：57644615736
+跳过已完成用户：60347920293
+跳过已完成用户：66612815544
+跳过已完成用户：286095745
+跳过已完成用户：zp19930329
+跳过已完成用户：850860296
+跳过已完成用户：89462562754
+跳过已完成用户：V.11.11
+跳过已完成用户：47472110092
+跳过已完成用户：Abbie100
+跳过已完成用户：36855777318
+跳过已完成用户：31949691984
+跳过已完成用户：55468266994
+跳过已完成用户：79905953276
+跳过已完成用户：102123829
+跳过已完成用户：66892109054
+跳过已完成用户：26308666316
+跳过已完成用户：49384271714
+跳过已完成用户：1732057992
+跳过已完成用户：ayo2268
+跳过已完成用户：jiajia_yoga22
+跳过已完成用户：75807122
+跳过已完成用户：59829086461
+跳过已完成用户：GGyoga1
+跳过已完成用户：sy5421518
+跳过已完成用户：35341549307
+跳过已完成用户：yke080706
+跳过已完成用户：344415762
+跳过已完成用户：qingchengyoga11
+跳过已完成用户：35341549307
+跳过已完成用户：32382964464
+跳过已完成用户：963117065
+跳过已完成用户：44963281012
+跳过已完成用户：28530365373
+跳过已完成用户：OnePotatoRay
+https://www.douyin.com/aweme/v1/web/discover/search/?device_platform=webapp&aid=6383&channel=channel_pc_web&search_channel=aweme_user_web&keyword=WUYR2021&search_source=normal_search&query_correct_type=1&is_filter_search=0&disable_rs=0&offset=0&count=12&need_filter_settings=1&list_type=single&pc_search_top_1_params=%7B%22enable_ai_search_top_1%22%3A1%7D&update_version_code=170400&pc_client_type=1&version_code=170400&version_name=17.4.0&cookie_enabled=true&screen_width=1707&screen_height=960&browser_language=zh-CN&browser_platform=Win32&browser_name=Edge&browser_version=142.0.0.0&browser_online=true&engine_name=Blink&engine_version=142.0.0.0&os_name=Windows&os_version=10&cpu_core_num=32&device_memory=8&platform=PC&downlink=10&effective_type=4g&round_trip_time=150&webid=3172494476863604043&msToken=VNHgz%3Dhf9MBvU8h8X8VKdW5tHWlWInNpu1SGXfggzhdhnpe7hVIA6nfZTx8emPz4CFaMdgQwmMc6sEAo07GbF76R14RgntiGrALpyho5Bdv&a_bogus=mjRMMQhfmD6phDyX5UoLfY3qVf-3YpF30SVkMDheVn37Ig39HMOs9exEnFzvL%2FbeiT%2FQIeujy4hbTrOgrQcjMZwf9Skw%2F2A2mESkKl5Q5xSSs1XyeykgJUhimktRSeo2RkBlrOXBwwpHzYYm09oHmhK4bIOwu3GMZf%3D%3D
+Traceback (most recent call last):
+  File "/home/gct/DY/main.py", line 98, in <module>
+    data_spider.spider_user_all_work(auth, work_total_num, user_url, save_dir,
+  File "/home/gct/DY/main.py", line 28, in spider_user_all_work
+    work_list = self.douyin_apis.get_user_all_work_info(auth, user_url, work_total_num,get_user_work_info_max_retry)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gct/DY/douyin_api.py", line 28, in get_user_all_work_info
+    res_json = DouyinAPI.get_user_work_info(auth, user_url, max_cursor, get_user_work_info_max_retry)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gct/DY/douyin_api.py", line 94, in get_user_work_info
+    resp = requests.get(f'{DouyinAPI.douyin_url}{api}', headers=headers.get(), cookies=auth.cookie,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/Anaconda3/lib/python3.11/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/Anaconda3/lib/python3.11/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/Anaconda3/lib/python3.11/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/Anaconda3/lib/python3.11/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/Anaconda3/lib/python3.11/site-packages/requests/adapters.py", line 644, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/root/Anaconda3/lib/python3.11/site-packages/urllib3/connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/root/Anaconda3/lib/python3.11/site-packages/urllib3/connectionpool.py", line 466, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/root/Anaconda3/lib/python3.11/site-packages/urllib3/connectionpool.py", line 461, in _make_request
+    httplib_response = conn.getresponse()
+                       ^^^^^^^^^^^^^^^^^^
+  File "/root/Anaconda3/lib/python3.11/http/client.py", line 1378, in getresponse
+    response.begin()
+  File "/root/Anaconda3/lib/python3.11/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/root/Anaconda3/lib/python3.11/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/Anaconda3/lib/python3.11/socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/Anaconda3/lib/python3.11/ssl.py", line 1311, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/Anaconda3/lib/python3.11/ssl.py", line 1167, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+2025-11-07 17:27:42.863 | INFO     | douyin_api:get_all_user_link_by_user_id:191 - get_all_user_link_by_user_id获取用户WUYR2021成功
+2025-11-07 17:27:42.865 | INFO     | douyin_api:get_user_link_by_user_id:125 - get_user_link_by_user_id_获取用户WUYR2021成功, 用户链接: https://www.douyin.com/user/MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY
+2025-11-07 17:27:44.311 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第0页成功
+2025-11-07 17:27:46.876 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1762091937000页成功
+2025-11-07 17:27:48.382 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1761433820000页成功
+2025-11-07 17:27:50.304 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1760436558000页成功
+2025-11-07 17:27:53.007 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1759984016000页成功
+2025-11-07 17:27:54.558 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1759657835000页成功
+2025-11-07 17:27:55.947 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1759226453000页成功
+2025-11-07 17:27:57.359 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1758855794000页成功
+2025-11-07 17:27:58.637 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1758447352000页成功
+2025-11-07 17:28:00.072 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1758063504000页成功
+2025-11-07 17:28:02.580 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1757590738000页成功
+2025-11-07 17:28:04.334 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1757111781000页成功
+2025-11-07 17:28:05.668 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1756680944000页成功
+2025-11-07 17:28:07.117 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1756309661000页成功
+2025-11-07 17:28:08.523 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1755838036000页成功
+2025-11-07 17:28:10.401 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1755431156000页成功
+2025-11-07 17:28:10.990 | INFO     | douyin_api:get_all_user_link_by_user_id:191 - get_all_user_link_by_user_id获取用户WUYR2021成功
+2025-11-07 17:28:10.991 | INFO     | douyin_api:get_user_link_by_user_id:125 - get_user_link_by_user_id_获取用户WUYR2021成功, 用户链接: https://www.douyin.com/user/MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY
+2025-11-07 17:28:12.290 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第0页成功
+2025-11-07 17:28:12.761 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1754949857000页成功
+2025-11-07 17:28:13.932 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1762091937000页成功
+2025-11-07 17:28:14.257 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1754457390000页成功
+2025-11-07 17:28:15.404 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1761433820000页成功
+2025-11-07 17:28:15.899 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1753957030000页成功
+2025-11-07 17:28:16.806 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1760436558000页成功
+2025-11-07 17:28:17.628 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1753536257000页成功
+2025-11-07 17:28:19.141 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1753154243000页成功
+2025-11-07 17:28:19.391 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1759984016000页成功
+2025-11-07 17:28:20.549 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1752801182000页成功
+2025-11-07 17:28:20.779 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1759657835000页成功
+2025-11-07 17:28:22.190 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1759226453000页成功
+2025-11-07 17:28:22.303 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1752412551000页成功
+2025-11-07 17:28:23.447 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1758855794000页成功
+2025-11-07 17:28:23.565 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1752014185000页成功
+2025-11-07 17:28:24.991 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1758447352000页成功
+2025-11-07 17:28:25.243 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1751580520000页成功
+2025-11-07 17:28:26.522 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1758063504000页成功
+2025-11-07 17:28:26.719 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1751034300000页成功
+2025-11-07 17:28:27.835 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1757590738000页成功
+2025-11-07 17:28:28.610 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1750645083000页成功
+2025-11-07 17:28:29.291 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1757111781000页成功
+2025-11-07 17:28:30.145 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1750289636000页成功
+2025-11-07 17:28:31.131 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1756680944000页成功
+2025-11-07 17:28:31.757 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1749808651000页成功
+2025-11-07 17:28:32.643 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1756309661000页成功
+2025-11-07 17:28:33.119 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1749388263000页成功
+2025-11-07 17:28:34.176 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1755838036000页成功
+2025-11-07 17:28:34.713 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1748922359000页成功
+2025-11-07 17:28:35.448 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1755431156000页成功
+2025-11-07 17:28:36.314 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1748559149000页成功
+2025-11-07 17:28:37.451 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1754949857000页成功
+2025-11-07 17:28:37.588 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1748167635000页成功
+2025-11-07 17:28:38.983 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1747705607000页成功
+2025-11-07 17:28:39.864 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1754457390000页成功
+2025-11-07 17:28:40.581 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1747277299000页成功
+2025-11-07 17:28:41.215 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1753957030000页成功
+2025-11-07 17:28:42.311 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1746790467000页成功
+2025-11-07 17:28:43.005 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1753536257000页成功
+2025-11-07 17:28:43.710 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1746400005000页成功
+2025-11-07 17:28:45.306 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1745900239000页成功
+2025-11-07 17:28:45.652 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1753154243000页成功
+2025-11-07 17:28:47.131 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1745447264000页成功
+2025-11-07 17:28:48.135 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1752801182000页成功
+2025-11-07 17:28:48.492 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1744947611000页成功
+2025-11-07 17:28:49.411 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1752412551000页成功
+2025-11-07 17:28:49.830 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1744410339000页成功
+2025-11-07 17:28:51.070 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1752014185000页成功
+2025-11-07 17:28:51.169 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1743760084000页成功
+2025-11-07 17:28:52.489 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1743159951000页成功
+2025-11-07 17:28:53.036 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1751580520000页成功
+2025-11-07 17:28:53.954 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1742724669000页成功
+2025-11-07 17:28:54.629 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1751034300000页成功
+2025-11-07 17:28:55.594 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1742343131000页成功
+2025-11-07 17:28:56.303 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1750645083000页成功
+2025-11-07 17:28:57.367 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1741959552000页成功
+2025-11-07 17:28:57.829 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1750289636000页成功
+2025-11-07 17:28:58.877 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1741576847000页成功
+2025-11-07 17:28:59.295 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1749808651000页成功
+2025-11-07 17:29:01.360 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1741213321000页成功
+2025-11-07 17:29:01.820 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1749388263000页成功
+2025-11-07 17:29:02.734 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1740798894000页成功
+2025-11-07 17:29:03.183 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1748922359000页成功
+2025-11-07 17:29:04.118 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1740442094000页成功
+2025-11-07 17:29:05.300 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1748559149000页成功
+2025-11-07 17:29:05.475 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1740006270000页成功
+2025-11-07 17:29:06.895 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1748167635000页成功
+2025-11-07 17:29:06.900 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1739530065000页成功
+2025-11-07 17:29:08.174 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1747705607000页成功
+2025-11-07 17:29:08.181 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1739099424000页成功
+2025-11-07 17:29:09.500 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1738674523000页成功
+2025-11-07 17:29:09.666 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1747277299000页成功
+2025-11-07 17:29:11.021 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1737892386000页成功
+2025-11-07 17:29:11.487 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1746790467000页成功
+2025-11-07 17:29:12.294 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1737373767000页成功
+2025-11-07 17:29:12.916 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1746400005000页成功
+2025-11-07 17:29:14.532 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1745900239000页成功
+2025-11-07 17:29:15.292 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1736895927000页成功
+2025-11-07 17:29:15.868 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1745447264000页成功
+2025-11-07 17:29:17.470 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1744947611000页成功
+2025-11-07 17:29:17.791 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1736549267000页成功
+2025-11-07 17:29:18.953 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1744410339000页成功
+2025-11-07 17:29:18.996 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1736160740000页成功
+2025-11-07 17:29:20.302 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1735785667000页成功
+2025-11-07 17:29:20.437 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1743760084000页成功
+2025-11-07 17:29:21.803 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1743159951000页成功
+2025-11-07 17:29:22.836 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1735341777000页成功
+2025-11-07 17:29:23.326 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1742724669000页成功
+2025-11-07 17:29:24.289 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1734946823000页成功
+2025-11-07 17:29:24.937 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1742343131000页成功
+2025-11-07 17:29:25.813 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1734597286000页成功
+2025-11-07 17:29:27.045 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1741959552000页成功
+2025-11-07 17:29:27.210 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1734227849000页成功
+跳过已完成用户：yangyangyoga888
+跳过已完成用户：JJYOGA
+跳过已完成用户：69363859794
+跳过已完成用户：1817544334
+跳过已完成用户：hhuixxy88
+跳过已完成用户：71440186
+跳过已完成用户：_baibai717
+跳过已完成用户：57644615736
+跳过已完成用户：60347920293
+跳过已完成用户：66612815544
+跳过已完成用户：286095745
+跳过已完成用户：zp19930329
+跳过已完成用户：850860296
+跳过已完成用户：89462562754
+跳过已完成用户：V.11.11
+跳过已完成用户：47472110092
+跳过已完成用户：Abbie100
+跳过已完成用户：36855777318
+跳过已完成用户：31949691984
+跳过已完成用户：55468266994
+跳过已完成用户：79905953276
+跳过已完成用户：102123829
+跳过已完成用户：66892109054
+跳过已完成用户：26308666316
+跳过已完成用户：49384271714
+跳过已完成用户：1732057992
+跳过已完成用户：ayo2268
+跳过已完成用户：jiajia_yoga22
+跳过已完成用户：75807122
+跳过已完成用户：59829086461
+跳过已完成用户：GGyoga1
+跳过已完成用户：sy5421518
+跳过已完成用户：35341549307
+跳过已完成用户：yke080706
+跳过已完成用户：344415762
+跳过已完成用户：qingchengyoga11
+跳过已完成用户：35341549307
+跳过已完成用户：32382964464
+跳过已完成用户：963117065
+跳过已完成用户：44963281012
+跳过已完成用户：28530365373
+跳过已完成用户：OnePotatoRay
+https://www.douyin.com/aweme/v1/web/discover/search/?device_platform=webapp&aid=6383&channel=channel_pc_web&search_channel=aweme_user_web&keyword=WUYR2021&search_source=normal_search&query_correct_type=1&is_filter_search=0&disable_rs=0&offset=0&count=12&need_filter_settings=1&list_type=single&pc_search_top_1_params=%7B%22enable_ai_search_top_1%22%3A1%7D&update_version_code=170400&pc_client_type=1&version_code=170400&version_name=17.4.0&cookie_enabled=true&screen_width=1707&screen_height=960&browser_language=zh-CN&browser_platform=Win32&browser_name=Edge&browser_version=142.0.0.0&browser_online=true&engine_name=Blink&engine_version=142.0.0.0&os_name=Windows&os_version=10&cpu_core_num=32&device_memory=8&platform=PC&downlink=10&effective_type=4g&round_trip_time=150&webid=6934522340047701612&msToken=CwECG6%3DCuZdwmqax0qgOG%3DTlbgEfaF2o4fzU8frCreyPGWBTZgsnInWQxpG9zle2Ke4oouHS%3DqQEK5Sr7431NVE39ApdiFoGCxbZ6IHuIk7&a_bogus=xymqQR8XDDIpvf6h5UoLfY3qV6a3YpFI0SVkMDhehV37GL39HMPH9exEnFGvBwjeiT%2FQIeujy4hbTrOgrQcjMZwf9Skw%2F2A2mESkKl5Q5xSSs1XyeykgJUhimktRSeo2RkBlrOXBwwpHzYYm09oHmhK4bIOwu3GMJj%3D%3D
+Traceback (most recent call last):
+  File "/home/gct/DY/main.py", line 98, in <module>
+    data_spider.spider_user_all_work(auth, work_total_num, user_url, save_dir,
+  File "/home/gct/DY/main.py", line 28, in spider_user_all_work
+    work_list = self.douyin_apis.get_user_all_work_info(auth, user_url, work_total_num,get_user_work_info_max_retry)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gct/DY/douyin_api.py", line 28, in get_user_all_work_info
+    res_json = DouyinAPI.get_user_work_info(auth, user_url, max_cursor, get_user_work_info_max_retry)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gct/DY/douyin_api.py", line 94, in get_user_work_info
+    resp = requests.get(f'{DouyinAPI.douyin_url}{api}', headers=headers.get(), cookies=auth.cookie,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/Anaconda3/lib/python3.11/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/Anaconda3/lib/python3.11/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/Anaconda3/lib/python3.11/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/Anaconda3/lib/python3.11/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/Anaconda3/lib/python3.11/site-packages/requests/adapters.py", line 644, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/root/Anaconda3/lib/python3.11/site-packages/urllib3/connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/root/Anaconda3/lib/python3.11/site-packages/urllib3/connectionpool.py", line 466, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/root/Anaconda3/lib/python3.11/site-packages/urllib3/connectionpool.py", line 461, in _make_request
+    httplib_response = conn.getresponse()
+                       ^^^^^^^^^^^^^^^^^^
+  File "/root/Anaconda3/lib/python3.11/http/client.py", line 1378, in getresponse
+    response.begin()
+  File "/root/Anaconda3/lib/python3.11/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/root/Anaconda3/lib/python3.11/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/Anaconda3/lib/python3.11/socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/Anaconda3/lib/python3.11/ssl.py", line 1311, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/Anaconda3/lib/python3.11/ssl.py", line 1167, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+2025-11-07 17:29:28.797 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1733820147000页成功
+2025-11-07 17:29:30.259 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1733389177000页成功
+跳过已完成用户：yangyangyoga888
+跳过已完成用户：JJYOGA
+跳过已完成用户：69363859794
+跳过已完成用户：1817544334
+跳过已完成用户：hhuixxy88
+跳过已完成用户：71440186
+跳过已完成用户：_baibai717
+跳过已完成用户：57644615736
+跳过已完成用户：60347920293
+跳过已完成用户：66612815544
+跳过已完成用户：286095745
+跳过已完成用户：zp19930329
+跳过已完成用户：850860296
+跳过已完成用户：89462562754
+跳过已完成用户：V.11.11
+跳过已完成用户：47472110092
+跳过已完成用户：Abbie100
+跳过已完成用户：36855777318
+跳过已完成用户：31949691984
+跳过已完成用户：55468266994
+跳过已完成用户：79905953276
+跳过已完成用户：102123829
+跳过已完成用户：66892109054
+跳过已完成用户：26308666316
+跳过已完成用户：49384271714
+跳过已完成用户：1732057992
+跳过已完成用户：ayo2268
+跳过已完成用户：jiajia_yoga22
+跳过已完成用户：75807122
+跳过已完成用户：59829086461
+跳过已完成用户：GGyoga1
+跳过已完成用户：sy5421518
+跳过已完成用户：35341549307
+跳过已完成用户：yke080706
+跳过已完成用户：344415762
+跳过已完成用户：qingchengyoga11
+跳过已完成用户：35341549307
+跳过已完成用户：32382964464
+跳过已完成用户：963117065
+跳过已完成用户：44963281012
+跳过已完成用户：28530365373
+跳过已完成用户：OnePotatoRay
+https://www.douyin.com/aweme/v1/web/discover/search/?device_platform=webapp&aid=6383&channel=channel_pc_web&search_channel=aweme_user_web&keyword=WUYR2021&search_source=normal_search&query_correct_type=1&is_filter_search=0&disable_rs=0&offset=0&count=12&need_filter_settings=1&list_type=single&pc_search_top_1_params=%7B%22enable_ai_search_top_1%22%3A1%7D&update_version_code=170400&pc_client_type=1&version_code=170400&version_name=17.4.0&cookie_enabled=true&screen_width=1707&screen_height=960&browser_language=zh-CN&browser_platform=Win32&browser_name=Edge&browser_version=142.0.0.0&browser_online=true&engine_name=Blink&engine_version=142.0.0.0&os_name=Windows&os_version=10&cpu_core_num=32&device_memory=8&platform=PC&downlink=10&effective_type=4g&round_trip_time=150&webid=3256010156712423833&msToken=DzDphAmRZBKfMK4L1t9R9IgnaeG7qDQgHIHmqhQKCwdEU0Mekp%3DVcOsD0zzA6V1zgKgVPxm6gD3FYRO%3DFI1hi7kIQrWqLUT3StfGv9OaKFy&a_bogus=OvR0MQ0Ddk6kffWh5UoLfY3qVIB3YpF10SVkMDhekV37X639HMPL9exEnFtvq6EeiT%2FQIeujy4hbTrOgrQcjMZwf9Skw%2F2A2mESkKl5Q5xSSs1XyeykgJUhimktRSeo2RkBlrOXBwwpHzYYm09oHmhK4bIOwu3GMeD%3D%3D
+Traceback (most recent call last):
+  File "/home/gct/DY/main.py", line 98, in <module>
+    data_spider.spider_user_all_work(auth, work_total_num, user_url, save_dir,
+  File "/home/gct/DY/main.py", line 28, in spider_user_all_work
+    work_list = self.douyin_apis.get_user_all_work_info(auth, user_url, work_total_num,get_user_work_info_max_retry)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gct/DY/douyin_api.py", line 28, in get_user_all_work_info
+    res_json = DouyinAPI.get_user_work_info(auth, user_url, max_cursor, get_user_work_info_max_retry)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gct/DY/douyin_api.py", line 88, in get_user_work_info
+    params.with_web_id(auth, user_url)
+  File "/home/gct/DY/builder/params.py", line 45, in with_web_id
+    webid = generate_fake_webid() if fake else generate_webid(auth, url)
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gct/DY/builder/dy_util.py", line 130, in generate_webid
+    response = requests.get(url, headers=headers.get(), verify=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/Anaconda3/lib/python3.11/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/Anaconda3/lib/python3.11/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/Anaconda3/lib/python3.11/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/Anaconda3/lib/python3.11/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/Anaconda3/lib/python3.11/site-packages/requests/adapters.py", line 644, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/root/Anaconda3/lib/python3.11/site-packages/urllib3/connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/root/Anaconda3/lib/python3.11/site-packages/urllib3/connectionpool.py", line 466, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/root/Anaconda3/lib/python3.11/site-packages/urllib3/connectionpool.py", line 461, in _make_request
+    httplib_response = conn.getresponse()
+                       ^^^^^^^^^^^^^^^^^^
+  File "/root/Anaconda3/lib/python3.11/http/client.py", line 1378, in getresponse
+    response.begin()
+  File "/root/Anaconda3/lib/python3.11/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/root/Anaconda3/lib/python3.11/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/Anaconda3/lib/python3.11/socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/Anaconda3/lib/python3.11/ssl.py", line 1311, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/Anaconda3/lib/python3.11/ssl.py", line 1167, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+2025-11-07 17:30:12.275 | INFO     | douyin_api:get_all_user_link_by_user_id:191 - get_all_user_link_by_user_id获取用户WUYR2021成功
+2025-11-07 17:30:12.276 | INFO     | douyin_api:get_user_link_by_user_id:125 - get_user_link_by_user_id_获取用户WUYR2021成功, 用户链接: https://www.douyin.com/user/MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY
+2025-11-07 17:30:13.622 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第0页成功
+2025-11-07 17:30:15.010 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1762091937000页成功
+2025-11-07 17:30:16.407 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1761433820000页成功
+2025-11-07 17:30:17.781 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1760436558000页成功
+2025-11-07 17:30:20.209 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1759984016000页成功
+2025-11-07 17:30:22.579 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1759657835000页成功
+2025-11-07 17:30:23.913 | INFO     | douyin_api:get_user_work_info:99 - get_user_work_info_获取用户MS4wLjABAAAAThG2CMRx4Bg5-Cms_QbyMvcfrhiZls1Viz_RWGU9SMY第1759226453000页成功
+跳过已完成用户：yangyangyoga888
+跳过已完成用户：JJYOGA
+跳过已完成用户：69363859794
+跳过已完成用户：1817544334
+跳过已完成用户：hhuixxy88
+跳过已完成用户：71440186
+跳过已完成用户：_baibai717
+跳过已完成用户：57644615736
+跳过已完成用户：60347920293
+跳过已完成用户：66612815544
+跳过已完成用户：286095745
+跳过已完成用户：zp19930329
+跳过已完成用户：850860296
+跳过已完成用户：89462562754
+跳过已完成用户：V.11.11
+跳过已完成用户：47472110092
+跳过已完成用户：Abbie100
+跳过已完成用户：36855777318
+跳过已完成用户：31949691984
+跳过已完成用户：55468266994
+跳过已完成用户：79905953276
+跳过已完成用户：102123829
+跳过已完成用户：66892109054
+跳过已完成用户：26308666316
+跳过已完成用户：49384271714
+跳过已完成用户：1732057992
+跳过已完成用户：ayo2268
+跳过已完成用户：jiajia_yoga22
+跳过已完成用户：75807122
+跳过已完成用户：59829086461
+跳过已完成用户：GGyoga1
+跳过已完成用户：sy5421518
+跳过已完成用户：35341549307
+跳过已完成用户：yke080706
+跳过已完成用户：344415762
+跳过已完成用户：qingchengyoga11
+跳过已完成用户：35341549307
+跳过已完成用户：32382964464
+跳过已完成用户：963117065
+跳过已完成用户：44963281012
+跳过已完成用户：28530365373
+跳过已完成用户：OnePotatoRay
+https://www.douyin.com/aweme/v1/web/discover/search/?device_platform=webapp&aid=6383&channel=channel_pc_web&search_channel=aweme_user_web&keyword=WUYR2021&search_source=normal_search&query_correct_type=1&is_filter_search=0&disable_rs=0&offset=0&count=12&need_filter_settings=1&list_type=single&pc_search_top_1_params=%7B%22enable_ai_search_top_1%22%3A1%7D&update_version_code=170400&pc_client_type=1&version_code=170400&version_name=17.4.0&cookie_enabled=true&screen_width=1707&screen_height=960&browser_language=zh-CN&browser_platform=Win32&browser_name=Edge&browser_version=142.0.0.0&browser_online=true&engine_name=Blink&engine_version=142.0.0.0&os_name=Windows&os_version=10&cpu_core_num=32&device_memory=8&platform=PC&downlink=10&effective_type=4g&round_trip_time=150&webid=2054220776089896207&msToken=zgIROSZDyRzxPRfpGhveeH1DfKAIRdeDtPYbvs2EtaAt6M0%3DU1DEA%3DZzugg0qdrvrhU8BHzPHVZTG%3DMSN50a2FQMW00vhxzM4B7wEB8Tmpo&a_bogus=mJRh%2FV0gDidBgfyg5UoLfY3qVWF3YpFX0SVkMDhezd37Z639HMO29exEnF7v7AyeiT%2FQIeujy4hbTrOgrQcjMZwf9Skw%2F2A2mESkKl5Q5xSSs1XyeykgJUhimktRSeo2RkBlrOXBwwpHzYYm09oHmhK4bIOwu3GMmj%3D%3D
+Traceback (most recent call last):
+  File "/home/gct/DY/DY_main.py", line 98, in <module>
+    data_spider.spider_user_all_work(auth, work_total_num, user_url, save_dir,
+  File "/home/gct/DY/DY_main.py", line 28, in spider_user_all_work
+    work_list = self.douyin_apis.get_user_all_work_info(auth, user_url, work_total_num,get_user_work_info_max_retry)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gct/DY/douyin_api.py", line 28, in get_user_all_work_info
+    res_json = DouyinAPI.get_user_work_info(auth, user_url, max_cursor, get_user_work_info_max_retry)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gct/DY/douyin_api.py", line 94, in get_user_work_info
+    resp = requests.get(f'{DouyinAPI.douyin_url}{api}', headers=headers.get(), cookies=auth.cookie,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/Anaconda3/lib/python3.11/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/Anaconda3/lib/python3.11/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/Anaconda3/lib/python3.11/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/Anaconda3/lib/python3.11/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/Anaconda3/lib/python3.11/site-packages/requests/adapters.py", line 644, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/root/Anaconda3/lib/python3.11/site-packages/urllib3/connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/root/Anaconda3/lib/python3.11/site-packages/urllib3/connectionpool.py", line 466, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/root/Anaconda3/lib/python3.11/site-packages/urllib3/connectionpool.py", line 461, in _make_request
+    httplib_response = conn.getresponse()
+                       ^^^^^^^^^^^^^^^^^^
+  File "/root/Anaconda3/lib/python3.11/http/client.py", line 1378, in getresponse
+    response.begin()
+  File "/root/Anaconda3/lib/python3.11/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/root/Anaconda3/lib/python3.11/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/Anaconda3/lib/python3.11/socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/Anaconda3/lib/python3.11/ssl.py", line 1311, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/Anaconda3/lib/python3.11/ssl.py", line 1167, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+2025-11-08 18:19:29.712 | INFO     | douyin_api:get_all_user_link_by_user_id:191 - get_all_user_link_by_user_id获取用户WUYR2021成功
+2025-11-08 18:19:29.713 | INFO     | douyin_api:get_user_link_by_user_id:119 - get_user_link_by_user_id_获取用户WUYR2021失败, 未找到相关数据
+2025-11-08 18:19:29.713 | ERROR    | __main__:<module>:95 - 获取用户 WUYR2021 链接失败
+跳过已完成用户：yangyangyoga888
+跳过已完成用户：JJYOGA
+跳过已完成用户：69363859794
+跳过已完成用户：1817544334
+跳过已完成用户：hhuixxy88
+跳过已完成用户：71440186
+跳过已完成用户：_baibai717
+跳过已完成用户：57644615736
+跳过已完成用户：60347920293
+跳过已完成用户：66612815544
+跳过已完成用户：286095745
+跳过已完成用户：zp19930329
+跳过已完成用户：850860296
+跳过已完成用户：89462562754
+跳过已完成用户：V.11.11
+跳过已完成用户：47472110092
+跳过已完成用户：Abbie100
+跳过已完成用户：36855777318
+跳过已完成用户：31949691984
+跳过已完成用户：55468266994
+跳过已完成用户：79905953276
+跳过已完成用户：102123829
+跳过已完成用户：66892109054
+跳过已完成用户：26308666316
+跳过已完成用户：49384271714
+跳过已完成用户：1732057992
+跳过已完成用户：ayo2268
+跳过已完成用户：jiajia_yoga22
+跳过已完成用户：75807122
+跳过已完成用户：59829086461
+跳过已完成用户：GGyoga1
+跳过已完成用户：sy5421518
+跳过已完成用户：35341549307
+跳过已完成用户：yke080706
+跳过已完成用户：344415762
+跳过已完成用户：qingchengyoga11
+跳过已完成用户：35341549307
+跳过已完成用户：32382964464
+跳过已完成用户：963117065
+跳过已完成用户：44963281012
+跳过已完成用户：28530365373
+跳过已完成用户：OnePotatoRay
+https://www.douyin.com/aweme/v1/web/discover/search/?device_platform=webapp&aid=6383&channel=channel_pc_web&search_channel=aweme_user_web&keyword=WUYR2021&search_source=normal_search&query_correct_type=1&is_filter_search=0&disable_rs=0&offset=0&count=12&need_filter_settings=1&list_type=single&pc_search_top_1_params=%7B%22enable_ai_search_top_1%22%3A1%7D&update_version_code=170400&pc_client_type=1&version_code=170400&version_name=17.4.0&cookie_enabled=true&screen_width=1707&screen_height=960&browser_language=zh-CN&browser_platform=Win32&browser_name=Edge&browser_version=142.0.0.0&browser_online=true&engine_name=Blink&engine_version=142.0.0.0&os_name=Windows&os_version=10&cpu_core_num=32&device_memory=8&platform=PC&downlink=10&effective_type=4g&round_trip_time=150&webid=2032014835889247388&msToken=hy23yRwHs7L7CDngczAG2av2hag44kxIG0e41RGyiKfCQo5lT1r5NXHcLWkmBvP4OqpNbg5l%3DGIIsszxvTS6mWx3aRmgspAGgEGC0vKC3lr&a_bogus=O7WM%2F5wgDDIPDV6k5A5LfY3qVl33YpKs0SVkMDhemn37qy39HMTk9exEt5hvXcYeiT%2FQIeujy4hbTrOgrQcjMZwf9Skw%2F2A2mESkKl5Q5xSSs1XyeykgJUhimktRSeo2RkBlrOXBwwpHzYYm09oHmhK4bIOwu3GMdj%3D%3D
+python: can't open file '/home/gct/DY/main.py': [Errno 2] No such file or directory
+2025-11-10 09:26:11.894 | INFO     | douyin_api:get_all_user_link_by_user_id:192 - get_all_user_link_by_user_id获取用户WUYR2021成功
+2025-11-10 09:26:11.896 | INFO     | douyin_api:get_user_link_by_user_id:119 - get_user_link_by_user_id_获取用户WUYR2021失败, 未找到相关数据
+2025-11-10 09:26:11.896 | ERROR    | __main__:<module>:95 - 获取用户 WUYR2021 链接失败
+跳过已完成用户：yangyangyoga888
+跳过已完成用户：JJYOGA
+跳过已完成用户：69363859794
+跳过已完成用户：1817544334
+跳过已完成用户：hhuixxy88
+跳过已完成用户：71440186
+跳过已完成用户：_baibai717
+跳过已完成用户：57644615736
+跳过已完成用户：60347920293
+跳过已完成用户：66612815544
+跳过已完成用户：286095745
+跳过已完成用户：zp19930329
+跳过已完成用户：850860296
+跳过已完成用户：89462562754
+跳过已完成用户：V.11.11
+跳过已完成用户：47472110092
+跳过已完成用户：Abbie100
+跳过已完成用户：36855777318
+跳过已完成用户：31949691984
+跳过已完成用户：55468266994
+跳过已完成用户：79905953276
+跳过已完成用户：102123829
+跳过已完成用户：66892109054
+跳过已完成用户：26308666316
+跳过已完成用户：49384271714
+跳过已完成用户：1732057992
+跳过已完成用户：ayo2268
+跳过已完成用户：jiajia_yoga22
+跳过已完成用户：75807122
+跳过已完成用户：59829086461
+跳过已完成用户：GGyoga1
+跳过已完成用户：sy5421518
+跳过已完成用户：35341549307
+跳过已完成用户：yke080706
+跳过已完成用户：344415762
+跳过已完成用户：qingchengyoga11
+跳过已完成用户：35341549307
+跳过已完成用户：32382964464
+跳过已完成用户：963117065
+跳过已完成用户：44963281012
+跳过已完成用户：28530365373
+跳过已完成用户：OnePotatoRay
+https://www.douyin.com/aweme/v1/web/discover/search/?device_platform=webapp&aid=6383&channel=channel_pc_web&search_channel=aweme_user_web&keyword=WUYR2021&search_source=normal_search&query_correct_type=1&is_filter_search=0&disable_rs=0&offset=0&count=12&need_filter_settings=1&list_type=single&pc_search_top_1_params=%7B%22enable_ai_search_top_1%22%3A1%7D&update_version_code=170400&pc_client_type=1&version_code=170400&version_name=17.4.0&cookie_enabled=true&screen_width=1707&screen_height=960&browser_language=zh-CN&browser_platform=Win32&browser_name=Edge&browser_version=142.0.0.0&browser_online=true&engine_name=Blink&engine_version=142.0.0.0&os_name=Windows&os_version=10&cpu_core_num=32&device_memory=8&platform=PC&downlink=10&effective_type=4g&round_trip_time=150&webid=2901549304450108089&msToken=YED9G9EzEV18ml4r9YY%3DQqBK0MgWgZ3RvaB5F%3Dzb1qlBtgxR%3DFMRIxhe2K3WtDStLAPmRwyGAH1A60Bi%3DKzk9hDnMSqsn7rNbSvGybIBeXs&a_bogus=x7R0Bf0DDkdiffWX5ACLfY3qVVN3Ypuz0SVkMDheLd37hy39HMPE9exEeDXvHyWeiT%2FQIeujy4hbTrOgrQcjMZwf9Skw%2F2A2mESkKl5Q5xSSs1XyeykgJUhimktRSeo2RkBlrOXBwwpHzYYm09oHmhK4bIOwu3GMQD%3D%3D
+2025-11-10 09:30:10.647 | INFO     | douyin_api:get_all_user_link_by_user_id:192 - get_all_user_link_by_user_id获取用户WUYR2021成功
+2025-11-10 09:30:10.648 | INFO     | douyin_api:get_user_link_by_user_id:119 - get_user_link_by_user_id_获取用户WUYR2021失败, 未找到相关数据
+2025-11-10 09:30:10.648 | ERROR    | __main__:<module>:95 - 获取用户 WUYR2021 链接失败
+跳过已完成用户：yangyangyoga888
+跳过已完成用户：JJYOGA
+跳过已完成用户：69363859794
+跳过已完成用户：1817544334
+跳过已完成用户：hhuixxy88
+跳过已完成用户：71440186
+跳过已完成用户：_baibai717
+跳过已完成用户：57644615736
+跳过已完成用户：60347920293
+跳过已完成用户：66612815544
+跳过已完成用户：286095745
+跳过已完成用户：zp19930329
+跳过已完成用户：850860296
+跳过已完成用户：89462562754
+跳过已完成用户：V.11.11
+跳过已完成用户：47472110092
+跳过已完成用户：Abbie100
+跳过已完成用户：36855777318
+跳过已完成用户：31949691984
+跳过已完成用户：55468266994
+跳过已完成用户：79905953276
+跳过已完成用户：102123829
+跳过已完成用户：66892109054
+跳过已完成用户：26308666316
+跳过已完成用户：49384271714
+跳过已完成用户：1732057992
+跳过已完成用户：ayo2268
+跳过已完成用户：jiajia_yoga22
+跳过已完成用户：75807122
+跳过已完成用户：59829086461
+跳过已完成用户：GGyoga1
+跳过已完成用户：sy5421518
+跳过已完成用户：35341549307
+跳过已完成用户：yke080706
+跳过已完成用户：344415762
+跳过已完成用户：qingchengyoga11
+跳过已完成用户：35341549307
+跳过已完成用户：32382964464
+跳过已完成用户：963117065
+跳过已完成用户：44963281012
+跳过已完成用户：28530365373
+跳过已完成用户：OnePotatoRay
+https://www.douyin.com/aweme/v1/web/discover/search/?device_platform=webapp&aid=6383&channel=channel_pc_web&search_channel=aweme_user_web&keyword=WUYR2021&search_source=normal_search&query_correct_type=1&is_filter_search=0&disable_rs=0&offset=0&count=12&need_filter_settings=1&list_type=single&pc_search_top_1_params=%7B%22enable_ai_search_top_1%22%3A1%7D&update_version_code=170400&pc_client_type=1&version_code=170400&version_name=17.4.0&cookie_enabled=true&screen_width=1707&screen_height=960&browser_language=zh-CN&browser_platform=Win32&browser_name=Edge&browser_version=142.0.0.0&browser_online=true&engine_name=Blink&engine_version=142.0.0.0&os_name=Windows&os_version=10&cpu_core_num=32&device_memory=8&platform=PC&downlink=10&effective_type=4g&round_trip_time=150&webid=8447612142558857855&msToken=e6%3DRrgNA%3Dz8PQhGRoXSFDdzAZgG%3DMOlBb142w3N7gMroi4i9rZklqH73P0gRPdgdsfebbr4pgeEGnIorgKkKkr200qWsAF3YvD0BdT6ZiFQ&a_bogus=Ej8ZBVzXdkINhD6g5ACLfY3qVXp3Ypuv0SVkMDheLx37Wg39HMTa9exEepwvK%2FDeiT%2FQIeujy4hbTrOgrQcjMZwf9Skw%2F2A2mESkKl5Q5xSSs1XyeykgJUhimktRSeo2RkBlrOXBwwpHzYYm09oHmhK4bIOwu3GM-E%3D%3D
