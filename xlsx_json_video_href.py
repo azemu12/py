@@ -3,9 +3,9 @@ import json
 import pandas as pd
 import re
 
-date_time = '20251105'
-excel_path = '1P_250319 全身视频采集_抖音号1082_链接671.xlsx'
-sheet_name = '链接-671'
+date_time = '20251127'
+excel_path = r'/home/gct/DY/data/5P_250319全身视频采集_抖音号298-单个视频链接2016.xlsx'
+sheet_name = '单个视频链接-2016'
 
 # === 没有表头，header=None ===
 data = pd.read_excel(excel_path, sheet_name=sheet_name, header=None)
