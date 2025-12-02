@@ -87,7 +87,7 @@ if __name__ == '__main__':
     failed_user_file = "fail.json"                      # 失败用户
     download_cache_file = r"/home/gct/DY/json/download_cache.json"         # 已下载视频缓存
 
-    save_dir = r"/sdc1/mada_16t/download_1129"
+    save_dir = r"/sdc1/mada_16t/download_1202_1110re"
     os.makedirs(save_dir, exist_ok=True)
 
     get_user_work_info_max_retry = 10

@@ -25,22 +25,24 @@ class DouyinAPI:
         max_cursor = "0"
         work_list = []
         while True:
-            res_json = DouyinAPI.get_user_work_info(auth, user_url, max_cursor, get_user_work_info_max_retry)
-            with open("wwwwwwwwwcfghjk.json","w",encoding="utf-8") as f:
-                f.write(json.dumps(res_json,ensure_ascii=False,indent=2))
-            if "aweme_list" not in res_json.keys():
-                logger.info(f"get_user_all_work_info_获取用户{user_url}全部作品信息失败,已获取到{len(work_list)}条")
-                break
-            max_cursor = str(res_json["max_cursor"])
-            for work in res_json["aweme_list"]:
-                # 会有一秒的误差
-                if work['video']['duration'] >= 91000:
-                    logger.info(f"get_user_all_work_info_过滤掉用户{user_url}的长视频作品id:{work['aweme_id']},时长:{work['video']['duration']}s")
-                    continue
-                work_list.append(work)
-            if res_json["has_more"] != 1 or (work_total_num != 0 and len(work_list) >= work_total_num):
-                break
-            break
+                res_json = DouyinAPI.get_user_work_info(auth, user_url, max_cursor, get_user_work_info_max_retry)
+
+                if not res_json or "aweme_list" not in res_json:
+                    break
+                
+                max_cursor = str(res_json["max_cursor"])
+
+                for work in res_json["aweme_list"]:
+                    if work['video']['duration'] >= 91000:
+                        continue
+                    work_list.append(work)
+
+                # 停止条件
+                if res_json["has_more"] != 1:
+                    break
+                if work_total_num != 0 and len(work_list) >= work_total_num:
+                    break
+                
         return work_list
 
     @staticmethod
