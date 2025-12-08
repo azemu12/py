@@ -25,23 +25,20 @@ class DouyinAPI:
         max_cursor = "0"
         work_list = []
         while True:
-                res_json = DouyinAPI.get_user_work_info(auth, user_url, max_cursor, get_user_work_info_max_retry)
-
-                if not res_json or "aweme_list" not in res_json:
-                    break
-                
-                max_cursor = str(res_json["max_cursor"])
-
-                for work in res_json["aweme_list"]:
-                    if work['video']['duration'] >= 91000:
-                        continue
-                    work_list.append(work)
-
-                # 停止条件
-                if res_json["has_more"] != 1:
-                    break
-                if work_total_num != 0 and len(work_list) >= work_total_num:
-                    break
+            res_json = DouyinAPI.get_user_work_info(auth, user_url, max_cursor, get_user_work_info_max_retry)
+            if not res_json or "aweme_list" not in res_json:
+                break
+            
+            max_cursor = str(res_json["max_cursor"])
+            for work in res_json["aweme_list"]:
+                if work['video']['duration'] >= 91000:
+                    continue
+                work_list.append(work)
+            # 停止条件
+            if res_json["has_more"] != 1:
+                break
+            if work_total_num != 0 and len(work_list) >= work_total_num:
+                break
                 
         return work_list
 

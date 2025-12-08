@@ -42,9 +42,9 @@ class Data_Spider():
 
 if __name__ == '__main__':
     # ===== 配置 =====
-    date_time = "20251126"
+    date_time = "20251201"
     json_file = f"json/{date_time}_video_href.json"
-    save_dir = r"/sdc1/mada_16t/download_1128"
+    save_dir = r"/sdc1/mada_16t/download_1204"
 
     # ===== 只创建这个目录 =====
     os.makedirs(save_dir, exist_ok=True)
