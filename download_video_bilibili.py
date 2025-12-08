@@ -3,6 +3,7 @@ import time
 import random
 import json
 import yt_dlp
+from loguru import logger
 
 
 def download_video(dirs, file_name, file_url,cookie_path):
@@ -22,7 +23,7 @@ def download_video(dirs, file_name, file_url,cookie_path):
 
         if use_cookies:
             ydl_opts_download['cookies'] = cookie_path
-            print(f"⚠️ 使用 Cookie 文件重试下载: {file_name}")
+            logger.info(f"⚠️ 使用 Cookie 文件重试下载: {file_name}")
 
         with yt_dlp.YoutubeDL(ydl_opts_download) as ydl:
             ydl.download([file_url])
@@ -30,21 +31,21 @@ def download_video(dirs, file_name, file_url,cookie_path):
     try:
         # 第一次尝试，不使用 cookie
         _run_download(use_cookies=False)
-        print(f"{file_name} 下载成功 ✅（无 Cookie）")
+        logger.info(f"{file_name} 下载成功 ✅（无 Cookie）")
         return 1
 
     except Exception as e1:
-        print(f"{file_name} 第一次下载失败 ❌，错误：{e1}")
+        logger.info(f"{file_name} 第一次下载失败 ❌，错误：{e1}")
         time.sleep(random.randint(1, 3))
 
         try:
             # 第二次尝试，使用 cookie
             _run_download(use_cookies=True)
-            print(f"{file_name} 下载成功 ✅（使用 Cookie）")
+            logger.info(f"{file_name} 下载成功 ✅（使用 Cookie）")
             return 1
 
         except Exception as e2:
-            print(f"{file_name} 下载失败 ❌（使用 Cookie 后仍失败），错误：{e2}")
+            logger.info(f"{file_name} 下载失败 ❌（使用 Cookie 后仍失败），错误：{e2}")
             return -1
 
 if __name__ == '__main__':
@@ -54,4 +55,7 @@ if __name__ == '__main__':
     for video_item in lines:
         video_url = video_item["video_id"]
         file_name = f"{video_item['index']}.mp4"
+        if os.path.exists(os.path.join(dirs, file_name)):
+            logger.info(f"{file_name} 已存在，跳过下载")
+            continue
         download_video(dirs, file_name, video_url, "1.txt")
