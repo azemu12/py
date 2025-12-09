@@ -49,13 +49,17 @@ def download_video(dirs, file_name, file_url,cookie_path):
             return -1
 
 if __name__ == '__main__':
-    dirs = r'0908_music_download'
-    with open("video_href.json", "r",encoding="utf-8") as f:
+    dirs = r'/sdc1/mada_16t/download_bilibili_1209_2'
+    with open("video_href_2.json", "r",encoding="utf-8") as f:
         lines = [json.loads(line) for line in f]   # 读一次
-    for video_item in lines:
-        video_url = video_item["video_id"]
+    for video_item in lines[-10:]:
+    
+        video_url = video_item["video_href"]
         file_name = f"{video_item['index']}.mp4"
         if os.path.exists(os.path.join(dirs, file_name)):
             logger.info(f"{file_name} 已存在，跳过下载")
             continue
         download_video(dirs, file_name, video_url, "1.txt")
+
+
+
