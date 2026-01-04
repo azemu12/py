@@ -1,2 +1,8 @@
 node_modules/
 __pycache__/
+# 忽略数据目录
+data/
+json/
+bad_work_info/
+out.log
+download_*/

@@ -57,11 +57,11 @@ class Data_Spider():
 
 if __name__ == '__main__':
     # ===== 配置 =====
-    date_time = "20251203"
+    date_time = "20251223"
     json_file = f"json/{date_time}_user_id_list.json"  # 你生成的用户列表文件
-    progress_file = "progress.json"                # 保存已完成用户
-    failed_user_file = "fail.json"               # 失败用户记录
-    save_dir = r"/sdc1/mada_16t/download_1206"
+    progress_file = "progress_1222.json"                # 保存已完成用户
+    failed_user_file = "fail_1222.json"               # 失败用户记录
+    save_dir = r"/sdc1/mada_16t/download_1224_DY"
     os.makedirs(save_dir, exist_ok=True)     
     get_user_work_info_max_retry = 10
     download_work_max_retry = 10
@@ -99,6 +99,7 @@ if __name__ == '__main__':
 
         try:
             user_url = data_spider.get_user_link_by_user_id(auth, user_id, get_user_link_max_retry)
+            
             if not user_url:
                 logger.error(f"获取用户 {user_id} 链接失败")
 
@@ -119,7 +120,6 @@ if __name__ == '__main__':
 
         except Exception as e:
             logger.error(f"用户 {user_id} 爬取出错: {repr(e)}")
-
             # 出错也写入失败文件
             failed_users.append(user_id)
             with open(failed_user_file, "w", encoding="utf-8") as f:

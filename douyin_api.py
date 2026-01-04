@@ -189,7 +189,9 @@ class DouyinAPI:
             try:
                 resp = requests.get(f'{DouyinAPI.douyin_url}{api}', headers=headers.get(), cookies=auth.cookie,
                                     params=params.get(), verify=False)
-                print(resp.url)
+                # print(resp.status_code)
+                # print(resp.text)
+                # print(resp.url)
                 resp.raise_for_status()
                 resp_json = json.loads(resp.text)
                 with open("get_all_user_link_by_user_id.json","w",encoding="utf-8") as f:
