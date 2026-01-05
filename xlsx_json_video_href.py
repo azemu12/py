@@ -3,14 +3,14 @@ import json
 import pandas as pd
 import re
 
-date_time = '20251223'
-excel_path = r'/home/gct/DY/data/1223_9P_250319全身视频采集_抖音号43_单个视频链接6551.xlsx'
-sheet_name = '单个视频链接-6551'
+date_time = '20251231'
+excel_path = r'/home/gct/DY/data/1230_14P_单人全身视频抖音号链接_抖音号4494个+视频链接542个_1230.xlsx'
+sheet_name = '视频链接-555'
 
 # === 没有表头，header=None ===
 data = pd.read_excel(excel_path, sheet_name=sheet_name, header=None)
 
-# 假设第 1 列（索引 0）是抖音号
+# 假设第 1 列（索引 0）是抖音号d
 video_href_list = data.iloc[:, 0].astype(str).tolist()
 
 # ========== 自动延续 index ==========

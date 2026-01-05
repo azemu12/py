@@ -130,7 +130,8 @@ class DouyinAPI:
                     user_link = f"https://www.douyin.com/user/{user_item['user_info']['sec_uid']}"
                     logger.info(f"get_user_link_by_user_id_获取用户{user_id}成功, 用户链接: {user_link}")
                     return user_link
-            logger.info(f"get_user_link_by_user_id_获取用户{user_id}失败, 未找到相关数据")
+            else:
+                return "用户id提供错误"
 
     @staticmethod
     def get_all_user_link_by_user_id(auth, user_id: str, get_user_link_max_retry: int) -> dict:
