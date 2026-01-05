@@ -24,6 +24,7 @@ class DouyinAuth:
         self.msToken = self.cookie["msToken"] if "msToken" in self.cookie else generate_msToken()
         self.cookie["msToken"] = self.msToken
         self.cookie_str = "; ".join([f"{k}={v}" for k, v in self.cookie.items()])
+        self.uifid = self.cookie['UIFID']
         if web_protect_ != "":
             web_protect_ = json.loads(json.loads(web_protect_)['data'])
             self.ticket = web_protect_['ticket']

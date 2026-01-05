@@ -184,15 +184,16 @@ class DouyinAPI:
         params.add_param("effective_type", '4g')
         params.add_param("round_trip_time", '150')
         params.with_web_id(auth, refer)
+        params.add_param("uifid", auth.uifid)
         params.add_param("msToken", auth.msToken)
-        params.with_a_bogus()
+        params.with_a_bogus(None,HeaderBuilder.ua)
         for attempt in range(1):
             try:
                 resp = requests.get(f'{DouyinAPI.douyin_url}{api}', headers=headers.get(), cookies=auth.cookie,
                                     params=params.get(), verify=False)
-                # print(resp.status_code)
-                # print(resp.text)
-                # print(resp.url)
+                print(resp.status_code)
+                print(resp.text)
+                print(resp.url)
                 resp.raise_for_status()
                 resp_json = json.loads(resp.text)
                 with open("get_all_user_link_by_user_id.json","w",encoding="utf-8") as f:

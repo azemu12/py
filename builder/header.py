@@ -1,7 +1,7 @@
 from enum import Enum
-
+from fake_useragent import UserAgent
 from builder.dy_util import generate_ree_key, generate_bd_ticket_client_data, generate_csrf_token
-
+ua = UserAgent()
 
 class HeaderType(Enum):
     DOC = 'DOC'
@@ -48,8 +48,8 @@ class Header:
 class HeaderBuilder:
     # ua = ('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 '
     #       'Safari/537.36 Edg/125.0.0.0')
-    ua = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0"
-
+    # ua = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0"
+    ua = ua.random
     @staticmethod
     def build(header_type):
         header = Header()

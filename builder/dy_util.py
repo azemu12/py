@@ -55,8 +55,8 @@ def generate_req_sign(e, priK):
 
 
 # query, data都是拼接字符串
-def generate_a_bogus(query, data=""):
-    a_bogus = dy_js.call('get_ab', query, data)
+def generate_a_bogus(query, data="", a_bogus_ua=""):
+    a_bogus = dy_js.call('get_ab', query, data, a_bogus_ua)
     return a_bogus
 
 

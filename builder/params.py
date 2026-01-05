@@ -46,13 +46,13 @@ class Params:
         self.params['webid'] = webid
         return self
 
-    def with_a_bogus(self, data=None):
+    def with_a_bogus(self, data=None, a_bogus_ua=""):
         query = splice_url(self.get())
         if data is not None:
             data = splice_url(data)
         else:
             data = ''
-        abogus = generate_a_bogus(query, data)
+        abogus = generate_a_bogus(query, data, a_bogus_ua)
         self.add_param('a_bogus', abogus)
         return self
 
