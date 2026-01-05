@@ -187,10 +187,15 @@ class DouyinAPI:
         params.add_param("uifid", auth.uifid)
         params.add_param("msToken", auth.msToken)
         params.with_a_bogus(None,HeaderBuilder.ua)
+
+        proxies = {
+        "http": "http://192.168.10.48:7890",
+        "https":"http://192.168.10.48:7890"
+    }
         for attempt in range(1):
             try:
                 resp = requests.get(f'{DouyinAPI.douyin_url}{api}', headers=headers.get(), cookies=auth.cookie,
-                                    params=params.get(), verify=False)
+                                    params=params.get(), verify=False,proxies=proxies)
                 print(resp.status_code)
                 print(resp.text)
                 print(resp.url)

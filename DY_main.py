@@ -61,7 +61,7 @@ if __name__ == '__main__':
     json_file = f"json/{date_time}_user_id_list.json"  # 你生成的用户列表文件
     progress_file = "progress_1222.json"                # 保存已完成用户
     failed_user_file = "fail_1222.json"               # 失败用户记录
-    save_dir = r"/sdc1/mada_16t/download_0104_DY_2"
+    save_dir = r"/sdc1/mada_16t/download_0105_DY"
     os.makedirs(save_dir, exist_ok=True)     
     get_user_work_info_max_retry = 10
     download_work_max_retry = 10
