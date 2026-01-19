@@ -4,7 +4,7 @@ import os
 from loguru import logger
 from douyin_api import DouyinAPI
 from builder.common_util import init
-from data_util import download_work
+from data_util_2 import download_work
 import sys
 
 
@@ -58,11 +58,11 @@ class Data_Spider():
 
 if __name__ == '__main__':
     # ===== 配置 =====
-    date_time = "20260107"
+    date_time = "20260105"
     json_file = f"json/{date_time}_user_id_list.json"  # 你生成的用户列表文件
-    progress_file = "progress_1222.json"                # 保存已完成用户
-    failed_user_file = "fail_1222.json"               # 失败用户记录
-    save_dir = r"/sdc1/mada_16t/download_0118_DY_2"
+    progress_file = "progress_0105.json"                # 保存已完成用户
+    failed_user_file = "fail_0105.json"               # 失败用户记录
+    save_dir = r"/sdc1/mada_16t/download_0119_DY"
     os.makedirs(save_dir, exist_ok=True)     
     get_user_work_info_max_retry = 10
     download_work_max_retry = 10
