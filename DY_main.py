@@ -4,7 +4,7 @@ import os
 from loguru import logger
 from douyin_api import DouyinAPI
 from builder.common_util import init
-from data_util import download_work
+from data_util_2 import download_work
 import sys
 
 
@@ -13,37 +13,36 @@ class Data_Spider():
     def __init__(self):
         self.douyin_apis = DouyinAPI()
 
-    def spider_user_all_work(self, auth, work_total_num: int, user_url: str, save_dir: str,get_user_work_info_max_retry,download_work_max_retry):
+    def spider_user_all_work(self, auth, work_total_num: int, user_url: str, save_dir: str, original_user_id: str, get_user_work_info_max_retry, download_work_max_retry):
         """
         爬取一个用户的所有作品
         :param auth: 用户认证信息
         :param work_total_num: 要获取的作品数量
         :param user_url: 用户链接
         :param save_dir: 保存路径
+        :param original_user_id: 原始用户ID
         :param get_user_work_info_max_retry: 获取用户作品信息最大重试次数
         :param download_work_max_retry: 下载作品最大重试次数
-        :param proxies: 代理
         :return:
         """
         # 加载作品列表
-        work_list = self.douyin_apis.get_user_all_work_info(auth, user_url, work_total_num,get_user_work_info_max_retry)
+        work_list = self.douyin_apis.get_user_all_work_info(auth, user_url, work_total_num, get_user_work_info_max_retry)
         if work_list is None:
-            logger.error(f'获取用户 {user_url} 全部作品信息失败')
+            logger.error(f'获取用户 {original_user_id} 全部作品信息失败')
             return
 
-        logger.info(f'用户 {user_url} 作品数量: {len(work_list)}')
+        logger.info(f'用户 {original_user_id} 作品数量: {len(work_list)}')
 
         for work_info in work_list:
             work_id = work_info["aweme_id"]
-            user_id = user_url.split("/")[-1].split("?")[0]
             # 判断是否为视频
             if work_info['aweme_type'] != 0:
                 logger.info(f'作品 {work_id} 不是视频，跳过')
                 continue
             try:
-                work_info["save_path"] = os.path.join(save_dir, user_id, work_id)
+                work_info["save_path"] = os.path.join(save_dir, original_user_id, work_id)
                 work_info["video_addr"] = work_info['video']['play_addr']['url_list'][0]
-                download_work(work_info,download_work_max_retry,"all")
+                download_work(work_info, download_work_max_retry, "all")
             except Exception as e:
                 logger.error(f'作品 {work_id} 解析失败: {repr(e)}')
                 continue
@@ -58,16 +57,16 @@ class Data_Spider():
 
 if __name__ == '__main__':
     # ===== 配置 =====
-    date_time = "20260107"
-    json_file = f"json/{date_time}_user_id_list.json"  # 你生成的用户列表文件
-    progress_file = "progress_1222.json"                # 保存已完成用户
-    failed_user_file = "fail_1222.json"               # 失败用户记录
-    save_dir = r"/sdc1/mada_16t/download_0118_DY_2"
+    date_time = "20260401"
+    json_file = f"json_good/{date_time}_user_id_list.json"  # 你生成的用户列表文件
+    progress_file = f"progress_{date_time}.json"                # 保存已完成用户dd
+    failed_user_file = f"fail_{date_time}.json"               # 失败用户记录
+    save_dir = r"G:\DY_video_download"
     os.makedirs(save_dir, exist_ok=True)     
     get_user_work_info_max_retry = 10
     download_work_max_retry = 10
     get_user_link_max_retry = 10
-    work_total_num = 80  # 每个用户要爬取的作品数量
+    work_total_num = 10000  # 每个用户要爬取的作品数量
 
     # 初始化
     auth = init()
@@ -111,7 +110,7 @@ if __name__ == '__main__':
                 continue
 
             # 2. 爬取作品
-            data_spider.spider_user_all_work(auth, work_total_num, user_url, save_dir,
+            data_spider.spider_user_all_work(auth, work_total_num, user_url, save_dir, user_id,
                                              get_user_work_info_max_retry, download_work_max_retry)
 
             # 3. 成功后写入 finished_users

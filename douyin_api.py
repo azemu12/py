@@ -31,9 +31,18 @@ class DouyinAPI:
             
             max_cursor = str(res_json["max_cursor"])
             for work in res_json["aweme_list"]:
-                if work['video']['duration'] >= 91000:
+                if work['video']['duration'] <= 8000 or work['video']['duration']>= 300000:
+                    continue
+                # 2. 分辨率过滤：宽/高任意一个 < 1080 直接跳过
+                width = work['video']['play_addr'].get('width', 0)
+                height = work['video']['play_addr'].get('height', 0)
+                if width < 1080 or height < 1080:
+                    logger.info(f'作品 {work["aweme_id"]} 分辨率 {width}x{height} 低于1080P，跳过')
                     continue
                 work_list.append(work)
+                # 检查是否达到数量限制
+                if work_total_num != 0 and len(work_list) >= work_total_num:
+                    break
             # 停止条件
             if res_json["has_more"] != 1:
                 break

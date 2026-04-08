@@ -1,0 +1,6 @@
+requests
+loguru
+retry
+curl_cffi
+tqdm
+openpyxl

@@ -8,3 +8,11 @@ find /sdc1/mada_16t/download_1110 -type f -iname "*.mp4" -printf "%s\n" | tee >(
 
 DY_main.py：下载user_id_list
 DY_main_one.py:下载video_href
+json示例：
+[
+  {
+    "id": "00000001",
+    "user_id": "59126455770",
+    "date_time": "20260317"
+  }
+]
